@@ -120,6 +120,7 @@ section {
   list-style: none;
 }
 
+
 /*HEADER-logo*/
 
 .header-webstudio {
@@ -168,11 +169,15 @@ span .header-studio {
   color: var(--letter-color);
 }
 
+
 .contacts-mail:hover {
-  color: var(--link-color);
+  fill: var(--accent-color);
+  color: var(--accent-color);
 }
+
 .contacts-mail:focus {
-  color: var(--link-color);
+  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-links-text {
@@ -188,12 +193,15 @@ span .header-studio {
   color: var(--letter-color);
 }
 
-.contacts-tel:hover {
-  color: var(--link-color);
-}
 .contacts-tel:focus {
-  color: var(--link-color);
+  fill: var(--accent-color);
+  color: var(--accent-color);
 }
+.contacts-tel:hover {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+
 
 .icons-contacts-form {
   width: 16px;
@@ -215,14 +223,14 @@ span .header-studio {
   background-color: var(--fon-color);
   padding-top: 200px;
   padding-bottom: 200px;
-  /*background-image*/
   background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-background-image.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1600px;
-  /*background: rgba(47, 48, 58, 0.4);*/
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -404,45 +412,50 @@ padding: 25px;
 }
 
 .icons-team-form {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   fill: var(--icon-color);
-  align-items: center;
-  justify-content: center;
-  padding: 25%;
 }
-.icon-link {
-  display: flex; 
-  }
 
 .icon-link {
-  display: flex; 
-}
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  }
 
 .icon-link:hover,
 .icon-link:focus {
 background-color: var(--accent-color);
-  border-radius: 50%;
-  background-position: center;
 }
+.icon-link:hover .icons-team-form {
+  fill: var(--basic-color);
+}
+
 
 .icons-team-form:hover,
 .icons-team-form:focus {
   fill: var(--basic-color); 
 }
 
+
+
+
 .icons-team {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
   margin-bottom: 30px;
   height: 44px;
+  }
+
+.icons-team-size:not(:last-child) {
+  margin-right: 10px;
 }
-
-
 /*Постоянные клиенты*/
 
 .section-client {
@@ -618,10 +631,9 @@ background-color: var(--accent-color);
 /* buttons portfolio*/
 .button-header {
   background-color: var(--accent-color);
-
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, g0reen, bl0ue, 0.15);
   text-align: center;
+  border: none;
 }
 
 .button-position {
