@@ -120,7 +120,6 @@ section {
   list-style: none;
 }
 
-
 /*HEADER-logo*/
 
 .header-webstudio {
@@ -151,18 +150,17 @@ section {
   color: var(--accent-color);
 }
 .link:active {
-  color: var(--accent-color);}
+  color: var(--accent-color);
+}
 
 .current {
   color: var(--accent-color);
-}  
+}
 
 span .header-studio {
   font-family: 'Raleway', sans-serif;
   font-weight: 700px;
 }
-
-
 
 .nav-links-text {
   display: flex;
@@ -186,7 +184,7 @@ span .header-studio {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
-.contacts-mail:focus  .icons-contacts-form {
+.contacts-mail:focus .icons-contacts-form {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
@@ -210,7 +208,7 @@ span .header-studio {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
-.contacts-tel:focus  .icons-contacts-form {
+.contacts-tel:focus .icons-contacts-form {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
@@ -223,9 +221,8 @@ span .header-studio {
   height: 12px;
   margin-right: 10px;
   fill: var(--letter-color);
- }
+}
 /*hover-mail-tel-finish*/
-
 
 /*MAIN*/
 /*hero*/
@@ -287,33 +284,31 @@ span .header-studio {
 
 .title-contents-size::before {
   display: block;
-  content: "";
+  content: '';
   height: 120px;
   width: 270px;
-  
+
   background-position: center;
   background-color: var(--background-team-color);
   margin-bottom: 30px;
   border-radius: 4px;
   background-repeat: no-repeat;
-
 }
 .icon-antenna::before {
-background-image: url("../images/icons/antenna_o.svg");
+  background-image: url('../images/icons/antenna_o.svg');
 }
 
-.icon-clock::before{
-background-image: url("../images/icons/clock_o.svg");
+.icon-clock::before {
+  background-image: url('../images/icons/clock_o.svg');
 }
 
-.icon-diagram::before{
-background-image: url("../images/icons/diagram_o.svg");
+.icon-diagram::before {
+  background-image: url('../images/icons/diagram_o.svg');
 }
 
-.icon-astronaut::before{
-background-image: url("../images/icons/astronaut_o.svg");
+.icon-astronaut::before {
+  background-image: url('../images/icons/astronaut_o.svg');
 }
-
 
 .title-contents-size:not(:last-child) {
   margin-right: 31px;
@@ -322,12 +317,12 @@ background-image: url("../images/icons/astronaut_o.svg");
 .title-contents-form {
   display: flex;
   justify-content: space-between;
- }
+}
 /*icons-mission*/
 
 .icons-mission {
   display: block;
-  content: "";
+  content: '';
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -339,11 +334,11 @@ background-image: url("../images/icons/astronaut_o.svg");
 }
 
 .icons-mission-form {
- background-size: contain;
+  background-size: contain;
   background-position: center;
-width: 270px;
-height: 120px;
-padding: 25px;
+  width: 270px;
+  height: 120px;
+  padding: 25px;
 }
 
 .content {
@@ -404,7 +399,6 @@ padding: 25px;
   color: var(--letter-color);
   text-align: center;
   margin-bottom: 16px;
-  
 }
 .team {
   font-weight: 500;
@@ -428,18 +422,17 @@ padding: 25px;
 }
 
 .icon-link {
-
   width: 44px;
   height: 44px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
   display: flex;
-  }
+}
 
 .icon-link:hover,
 .icon-link:focus {
-background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .icon-link:hover .icons-team-form {
   fill: var(--basic-color);
@@ -450,11 +443,8 @@ background-color: var(--accent-color);
 
 .icons-team-form:hover,
 .icons-team-form:focus {
-  fill: var(--basic-color); 
+  fill: var(--basic-color);
 }
-
-
-
 
 .icons-team {
   display: flex;
@@ -462,7 +452,7 @@ background-color: var(--accent-color);
   justify-content: center;
   margin-top: 16px;
   padding-bottom: 30px;
-   }
+}
 
 .icons-team-size:not(:last-child) {
   margin-right: 10px;
@@ -500,8 +490,8 @@ background-color: var(--accent-color);
   justify-content: center;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-height: 92px;
-width: 170px;
+  height: 92px;
+  width: 170px;
 }
 
 .link-logo:hover {
@@ -513,15 +503,14 @@ width: 170px;
 }
 
 .client-cards-form {
-   fill: #afb1b8;
+  fill: #afb1b8;
 }
-
 
 .link-logo:hover .client-cards-form {
-  fill: var(--accent-color); 
+  fill: var(--accent-color);
 }
 .link-logo:focus .client-cards-form {
-  fill: var(--accent-color); 
+  fill: var(--accent-color);
 }
 
 /*FOOTER*/
@@ -622,16 +611,17 @@ span .footer-studio {
   fill: var(--basic-color);
   align-items: center;
   justify-content: center;
-  padding: 25%;}
+  padding: 25%;
+}
 
-  .icon-footer-link {
-  display: flex; 
+.icon-footer-link {
+  display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 .icon-footer-link:hover,
 .icon-footer-link:focus {
-background-color: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 50%;
   background-position: center;
 }
@@ -662,25 +652,23 @@ background-color: var(--accent-color);
   padding-top: 0px;
 }
 
-
 .button-position {
   text-align: center;
 }
 .button:hover {
-  background-color:var(--link-color);
+  background-color: var(--link-color);
 }
 
 .current-portfolio:hover {
   background: var(--accent-color);
   color: var(--basic-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .current-portfolio:focus {
   background: var(--accent-color);
   color: var(--basic-color);
-  
 }
 .current-portfolio:active {
   background: var(--accent-color);
@@ -738,13 +726,11 @@ background-color: var(--accent-color);
   margin-bottom: 0px;
   padding-left: 24px;
   font-weight: 700;
-
-
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-letter-spacing: 0.06em;
-color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 
 .portfolio-container-button {
@@ -753,7 +739,6 @@ color: #212121;
   align-items: center;
   margin-bottom: 50px;
   padding: 0px;
-  
 }
 
 .our-project {
@@ -765,14 +750,14 @@ color: #212121;
 }
 
 .our-project-card {
-background: var(--basic-color);
-border: 1px solid var(--border-color);
- width: 370px;
- height: auto;
+  background: var(--basic-color);
+  border: 1px solid var(--border-color);
+  width: 370px;
+  height: auto;
 }
 
 .our-project-card:hover {
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -787,7 +772,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   color: var(--accent-color);
 }
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .job {
@@ -800,13 +785,13 @@ text-decoration: none;
   color: var(--letter-color);
 
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
 
-line-height: 30px;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-color: var(--letter-color);
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: var(--letter-color);
 }
 
 /*MAIN PORTFOLIO*/
@@ -822,4 +807,3 @@ color: var(--letter-color);
   padding: 0px;
   margin: 0px;
 }
-
