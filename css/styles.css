@@ -599,10 +599,11 @@ span .footer-studio {
   margin-bottom: 0px;
   padding-bottom: 20px;
 }
+
 .icon-size-padding {
   padding-top: 10px;
-  /*margin-left: 70px;*/
 }
+
 .icon-size:not(:last-child) {
   margin-right: 70px;
 }
@@ -671,6 +672,8 @@ span .footer-studio {
 .current-portfolio:focus {
   background: var(--accent-color);
   color: var(--basic-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .current-portfolio:active {
   background: var(--accent-color);
@@ -725,14 +728,14 @@ span .footer-studio {
   font-size: 18px;
   line-height: 2;
   padding-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 4px;
   padding-left: 24px;
   font-weight: 700;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--brand-color);
 }
 
 .portfolio-container-button {
@@ -755,7 +758,6 @@ span .footer-studio {
   background: var(--basic-color);
   border: 1px solid var(--border-color);
   width: 370px;
-  height: auto;
 }
 
 .our-project-card:hover {
